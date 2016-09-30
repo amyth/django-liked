@@ -4,7 +4,7 @@ from setuptools import find_packages
 
 setup(
     name='django-liked',
-    version='1.0.0',
+    version='1.0.1',
     author='Amyth Arora',
     author_email='mail@amythsingh.com',
     packages=find_packages(),
@@ -13,6 +13,6 @@ setup(
     description='A django likes app',
     long_description='Django Liked is a generic like dislike application that '\
         'built on django 1.10 using the contenttypes framework to create likes'\
-        'for any models in your django project'
+        'for any models in your django project',
     zip_safe=False,
 )
